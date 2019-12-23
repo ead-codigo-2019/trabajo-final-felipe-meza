@@ -20,6 +20,13 @@
 	font-size: 5rem;
 }
 
+span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 2rem;
+	padding-left: 10px;
+}
+
 .cuadro {
 	width: 290px;
 	display: flex;
@@ -84,7 +91,9 @@
 }
 
 .site-main {
-	background-color: #efefef
+	background-color: #efefef;
+	width: 290px;
+	height: 900px;
 }
 
 .nav {
@@ -111,7 +120,7 @@ li {
 .content {
 	background-color: #fff;
 	margin-left: 290px;
-	margin-top: -620px;
+	margin-top: -900px;
 	height: 900px;
 
 	padding-left: 60px;
@@ -141,8 +150,12 @@ li {
 
 .intro {
 
-	
-	margin-top: 136px;
+	width: 100%;
+	margin-top: 120px;
+	padding-right: ;
+}
+
+.caja {
 	padding-right: 600px;
 }
 
@@ -174,4 +187,32 @@ li {
 	background-color: #efefef;
 	border: 1px solid transparent;
 	height: 200px;
+}
+
+#licenciado {
+	width: 230px;
+	float: right;
+	margin-right: 15rem;
+	margin-bottom: 2rem;
+}
+
+#beneficio {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+h4 {
+	text-align: center;
+}
+
+a {
+	color:  #FF7062;
+	text-decoration: none;
 }
