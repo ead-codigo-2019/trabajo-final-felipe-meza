@@ -24,7 +24,7 @@ span {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	font-size: 2rem;
-	padding-left: 10px;
+	padding-left: 30px;
 }
 
 .cuadro {
@@ -216,3 +216,6 @@ a {
 	color:  #FF7062;
 	text-decoration: none;
 }
+
+
+
